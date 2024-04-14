@@ -11,6 +11,6 @@ connectDB();
 
 app.listen(process.env.PORT, () => {
     console.log("PORT listening to -> ", process.env.PORT);
-})
+});
 
 app.use("/api/users", userRoutes);
